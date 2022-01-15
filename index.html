@@ -544,25 +544,20 @@
             <div class="counter">
 
                 <div class="box">
-                    <span>o</span>
-                    <h3>years of experience</h3>
+                    <span>busy in my studies.</span>
                 </div>
 
                 <div class="box">
-                    <span>3+</span>
-                    <h3>project completed</h3>
+                    <span>hobbies</span>
+                    <h3>in free time i overthink.....
+                        So funny.....
+                    </h3>
                 </div>
 
                 <div class="box">
-                    <span>no</span>
-                    <h3>happy clients</h3>
+                    <span>role model</span>
+                    <h3>Brendan eich</h3>
                 </div>
-
-                <div class="box">
-                    <span>12+</span>
-                    <h3>awards won</h3>
-                </div>
-
             </div>
 
         </div>
@@ -613,16 +608,25 @@
                 <i class="fas fa-graduation-cap"></i>
                 <span>2020</span>
                 <h3>i was in 12th std</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
-                    provident laborum quae, distinctio eaque temporibus!</p>
+                <p>That year was a very hectic year.
+                    And that year the paper was not conducted because of "CORONA MAHARAJ".
+                    After that i scored above 90%.
+                    And that year had also passed.
+                </p>
             </div>
 
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
                 <span>2021-2022</span>
                 <h3>now i am in Ist year</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem
-                    provident laborum quae, distinctio eaque temporibus!</p>
+                <p>CURRENTLY STUDYING IN THE FIRST YEAR........</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2022-2023</span>
+                <h3>2nd year COMING SOON......</h3>
+                <p>...........</p>
             </div>
 
         </div>
@@ -640,11 +644,11 @@
         <div class="box-container">
 
             <div class="box">
-                <img src="images/img1.jpg" alt="">
+                <img src="images/img2.jpg" alt="">
             </div>
 
             <div class="box">
-                <img src="images/img2.jpg" alt="">
+                <img src="images/img1.jpg" alt="">
             </div>
 
             <div class="box">
@@ -654,15 +658,6 @@
             <div class="box">
                 <img src="images/img4.jpg" alt="">
             </div>
-
-            <div class="box">
-                <img src="images/img5.jpg" alt="">
-            </div>
-
-            <div class="box">
-                <img src="images/img6.jpg" alt="">
-            </div>
-
         </div>
 
     </section>
@@ -731,44 +726,44 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- custom js file link  -->
-<script>$(document).ready(function(){
+    <script>$(document).ready(function () {
 
-    $('#menu').click(function(){
-      $(this).toggleClass('fa-times');
-      $('header').toggleClass('toggle');
-    });
-  
-    $(window).on('scroll load',function(){
-  
-      $('#menu').removeClass('fa-times');
-      $('header').removeClass('toggle');
-  
-      if($(window).scrollTop() > 0){
-        $('.top').show();
-      }else{
-        $('.top').hide();
-      }
-  
-    });
-  
-    // smooth scrolling 
-  
-    $('a[href*="#"]').on('click',function(e){
-  
-      e.preventDefault();
-  
-      $('html, body').animate({
-  
-        scrollTop : $($(this).attr('href')).offset().top,
-  
-      },
-        500, 
-        'linear'
-      );
-  
-    });
-  
-  });</script>
+            $('#menu').click(function () {
+                $(this).toggleClass('fa-times');
+                $('header').toggleClass('toggle');
+            });
+
+            $(window).on('scroll load', function () {
+
+                $('#menu').removeClass('fa-times');
+                $('header').removeClass('toggle');
+
+                if ($(window).scrollTop() > 0) {
+                    $('.top').show();
+                } else {
+                    $('.top').hide();
+                }
+
+            });
+
+            // smooth scrolling 
+
+            $('a[href*="#"]').on('click', function (e) {
+
+                e.preventDefault();
+
+                $('html, body').animate({
+
+                    scrollTop: $($(this).attr('href')).offset().top,
+
+                },
+                    500,
+                    'linear'
+                );
+
+            });
+
+        });</script>
 
 </body>
 
